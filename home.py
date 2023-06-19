@@ -13,7 +13,7 @@ ls = []
 UPLOAD_FOLDER = 'audio_files'
 
 #Add XFLOW Key here
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 @app.route('/')
