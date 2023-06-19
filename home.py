@@ -78,4 +78,4 @@ def get_gpt3_response(prompt, response=""):
 
 if __name__ == '__main__':
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-    app.run(debug=True)
+    app.run(debug=False)
