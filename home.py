@@ -3,6 +3,7 @@ from flask import Flask, flash, redirect, render_template, \
      request, url_for
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
+from config import key
 import openai
 import os
 
@@ -13,7 +14,7 @@ ls = []
 UPLOAD_FOLDER = 'audio_files'
 
 #Add XFLOW Key here
-openai.api_key = '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'
+openai.api_key = key
 
 
 @app.route('/')
